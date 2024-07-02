@@ -108,8 +108,10 @@ main > img{
 }
 
 main img.pequena {
-    max-width: 300px;
-    display: block;
+    max-width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     margin: auto;
 }
 
